@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body id="body">
+    <input
+      type="text"
+      name="color"
+      id="userColor"
+      placeholder="enter the color"
+    />
+    <script>
+      const body = document.getElementById('body');
+      userColor.addEventListener("input", () => {
+        body.style.background = document.getElementById('userColor').value;
+      });
+    </script>
+  </body>
+</html>
